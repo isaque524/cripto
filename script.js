@@ -47,7 +47,7 @@ function novacoin(){
         
 
         last_price_coinbase = price_coinbase;
-        /* fim Bitcoin */
+        
     } }
 
         td.innerHTML = novamoeda
