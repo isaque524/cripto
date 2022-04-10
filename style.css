@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(37, 37, 59),rgb(75, 4, 126));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    .container .col-2 {
+        background-color: rgba(245, 245, 245, 0.897);
+                font-size: 1.8vw;
+                font-weight: 700;
+                border-radius: 2vw;
+                box-shadow: 10px 10px 25px #bdbdbd8c;
+    }
+    .container .pair {
+                    font-size: 0.7vw;
+                    font-weight: 500;
+                }
+                
+    .price {
+                    font-family: Consolas, monaco, monospace;
+                }
+
+    .row{
+        width: 100vw;
+    }
+    .cont{
+        background-color: rgba(245, 245, 245, 0.897);
+        border: 1px solid #ccc ;
+        padding: 20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    main{   
+        background-image: linear-gradient(rgb(76, 36, 109),rgb(20, 20, 61));
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        max-width: 500px;
+        width: 70%;
+        padding: 20px;
+        left: 50%;
+        top: 50%;
+        margin-top: 2%;
+        margin-left: 30%;
+        }
+        input{
+            margin-top: 5px;
+            padding:5px;
+            border-radius: 3px;
+            outline: 0;
+        }
+        button{
+            margin-top: 5px;
+            padding:5px;
+           border: 0px;
+           outline: 0;
+           background-color: rgb(76, 36, 109);
+           color: #fff;
+           border-radius: 3px;
+        
+        }
+        button:hover{
+            background-color: rgb(20, 20, 61) ;
+
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table th{
+            background-color:rgb(133, 133, 133) ;
+        }
+        
+        
+            
+        
+    
+

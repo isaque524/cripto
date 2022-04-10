@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Criptoativos</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css' integrity='sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU' crossorigin='anonymous'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js' integrity='sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/' crossorigin='anonymous'></script>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+
+</head>
+
+<body>
+    <div class='container d-flex align-items-center mt-5'>
+                <div class='col-2 p-5 me-5'>
+                    <div class='d-flex justify-content-end mb-3'>Bitcoins</div>
+                    <div class='d-flex justify-content-end pair'>BTC/USD</div>
+                    <div class='d-flex justify-content-end price' id='show_price_btc'>...</div>
+                </div>
+
+            <div class='col-2 p-5 me-5'>
+                <div class='d-flex justify-content-end mb-3'>Cardano</div>
+                <div class='d-flex justify-content-end pair'>ADA/USD</div>
+                <div class='d-flex justify-content-end price' id='show_price_ada'>...</div>
+            </div>
+
+            <div class='col-2 p-5 me-5'>
+                    <div class='d-flex justify-content-end mb-3'>Litecoin</div>
+                    <div class='d-flex justify-content-end pair'>LTC/USD</div>
+                    <div class='d-flex justify-content-end price' id='show_price_ltc'>...</div>
+                </div>
+
+        <div class='col-2 p-5 me-5'>
+            <div class='d-flex justify-content-end mb-3'>Tether</div>
+            <div class='d-flex justify-content-end pair'>USDT/USD</div>
+            <div class='d-flex justify-content-end price' id='show_price_usdt'>...</div>
+        </div>
+        
+        <div class='col-2 p-5 me-5'>
+            <div class='d-flex justify-content-end mb-3'>Ethereum</div>
+            <div class='d-flex justify-content-end pair'>ESTH/USD</div>
+            <div class='d-flex justify-content-end price' id='show_price_esth'>...</div>
+        </div>
+
+    </div>
+    <main >
+    <div class="cont  table table-bordered">
+        <h3>Lista de Cotação</h3>
+    <table  id="table" >
+        <div id="tab">
+        <th> 
+            moeda
+        </th>
+        <th >
+            cotação
+        </th>
+        </div>
+        <tbody id="tbody">
+                    
+        </tbody>
+       
+    </table>
+
+ 
+    <script src="script.js"></script>
+  
+        <input  type="text" placeholder="Digite a moeda ex:BTC" name="Moeda" id="moeda"/>
+        <button id="enviar" onclick="novacoin()"> Enviar  </button>
+    </div>
+    </div>
+    </main>
+    <script src="./moedas/btc.js"></script>
+    <script src='./moedas/ada.js'></script>
+    <script src="./moedas/ltc.js"></script>
+    <script src="./moedas/usdt.js"></script>
+    <script src="./moedas/esth.js"></script>
+
+</body>
+
+</html>
